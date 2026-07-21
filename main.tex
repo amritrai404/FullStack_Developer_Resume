@@ -1,0 +1,169 @@
+%------------------------- 
+% Resume in Latex
+% Author : Jake Gutierrez
+% Modified : Amrit Rai
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Amrit Rai} \\ \vspace{1pt}
+    \small 
+    \href{https://www.linkedin.com/in/amrit-rai-data-analyst}{\underline{LinkedIn}} $|$ 
+    +91 9696782522 $|$ 
+    \href{mailto:amritrai1061@gmail.com}{\underline{amritrai1061@gmail.com}} $|$ 
+    \href{https://amritrai-portfolio.netlify.app/}{\underline{Portfolio}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+
+Frontend Developer with 6 months of internship experience contributing to a US-based NGO project at Asymmetric.ai and developing production-ready web applications at Sanggo Tech. Proficient in Next.js, React, TypeScript, and Tailwind CSS.
+
+%-----------Skills-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, TypeScript, HTML5, CSS3} \\
+     \textbf{Frameworks}{: React.js, Next.js, Tailwind CSS} \\
+     \textbf{Animation/UI}{: GSAP, Framer Motion, Shadcn/UI} \\
+     \textbf{Backend \& Database}{: Supabase, MongoDB, SQL} \\
+     \textbf{Tools}{: Git, GitHub, VS Code, Figma, Clerk}
+     }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Frontend Developer Intern}{January 2026 -- April 2026 (3 Months)}
+{Global Fellowship (US-based NGO) | Asymmetric.ai}{Remote}
+\resumeItemListStart
+\resumeItem{Built responsive frontend interfaces using Next.js, React, TypeScript and Tailwind CSS.}
+\resumeItem{Converted Figma designs into reusable and scalable UI components.}
+\resumeItem{Collaborated with international developers using GitHub, pull requests and code reviews.}
+\resumeItem{Worked on production features, bug fixes, responsive layouts and UI improvements across multiple modules.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Frontend Developer Intern}{March 2025 -- June 2025 (3 Months)}
+{\href{https://sanggotech.com/}{\underline{Sanggo Tech}}}{Remote}
+\resumeItemListStart
+\resumeItem{Developed and maintained responsive websites using Next.js, React and Tailwind CSS.}
+\resumeItem{Built reusable UI components and implemented animations with GSAP and Framer Motion.}
+\resumeItem{Improved website performance and user experience across different screen sizes.}
+\resumeItem{\textbf{Certificate:} \href{https://drive.google.com/file/d/17ZWz0DxVnz4OWhpZPEe4nRgHMSmODvMl/view}{\underline{View Internship Certificate}}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{QuickCart} $|$ \emph{Next.js, React, TypeScript, Tailwind CSS}}{}
+\resumeItemListStart
+\resumeItem{Built a modern e-commerce frontend with responsive design and reusable UI components.}
+\resumeItem{Implemented product listings, category filtering, shopping cart and optimized layouts.}
+\resumeItem{Focused on clean architecture, performance optimization and mobile-first design.}
+\resumeItem{Live Demo: \href{https://amrit-quick-cart.netlify.app/}{\underline{QuickCart Live}} $|$ \href{https://github.com/amritrai404/Quick-Cart}{\underline{GitHub}}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Satnam Cooling Services} $|$ \emph{Next.js, React, Tailwind CSS, GSAP}}{}
+\resumeItemListStart
+\resumeItem{Developed a responsive business website with modern UI and smooth animations.}
+\resumeItem{Implemented reusable sections and optimized user experience across devices.}
+\resumeItem{Improved responsiveness, performance and visual appeal using GSAP animations.}
+\resumeItem{Live Demo: \href{https://www.satnamcoolingservice.shop/}{\underline{Website}}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Bachelor of Computer Applications (Expected 2027)}{}
+{Mahatma Gandhi Kashi Vidyapith}{Varanasi, Uttar Pradesh}
+
+\resumeSubHeadingListEnd
+
+\end{document}
