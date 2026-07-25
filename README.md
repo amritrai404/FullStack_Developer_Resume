@@ -1,6 +1,6 @@
 # Resume_Frontend
 
-Current:projEcts have to be updated && 
+Current: project 2 have to be done && 
 link for resume must be here and in project discription && 
 INTERNSHIP links recheck &&
 final polish before getting the link.
