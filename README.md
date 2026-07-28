@@ -8,4 +8,4 @@ final polish before getting the link.
 
 [Resume in Latex Code for frontend developer profile]
 overlief link:https://www.overleaf.com/project/68a980efa08bb7df63a89391
-LINK:-
+LINK:
