@@ -1,4 +1,4 @@
-# Resume_Frontend
+# Resume_Frontend Latex Code
 
 Current: project 2 have to be done && 
 link for resume must be here and in project discription && 
