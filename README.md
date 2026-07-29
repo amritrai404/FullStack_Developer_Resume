@@ -1,4 +1,4 @@
-# Resume_Frontend Latex Code
+# Frontend Resume Latex Code [August, 2026];
 
 Current: project 2 have to be done && 
 link for resume must be here and in project discription && 
